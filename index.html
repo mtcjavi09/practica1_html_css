@@ -10,70 +10,74 @@
         <!-- Autora --><meta name="author" content="Maria Tchijov Cruz"/>
         <!-- Palabras clave -->
         <meta name="keyword" content="mis primeras etiquetas, pagina web, inicio html, inicio css"/>
-
+        <!-- style: agrega las reglas css -->
+        <link rel="stylesheet" href="estilos/estilos1.css"/>
     </head>
     <body>
-        <!-- Header de la página -->
-        <header>
-            <h1>Mi blog</h1>
-        </header>
-        <!-- Navegación dentro de la página -->
-        <nav>
-            <!-- Lista desordenada con varios ítems -->
-            <ul>
-                <li>Principal</li>
-                <li>Ayuda</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
-        <!-- Se usa la etiqueta section para almacenar el contenido principal -->
-        <section>
-            <article>
-                <!-- Se ordenan los encabezados -->
-                <hgroup>
-                    <h1>Primer art&iacute;culo</h1>
-                    <h2>Subt&iacute;tulo</h2>
-                </hgroup>
-                <time datetime="2022-05-31">Publicado el: 2022-05-31</time>
-                <p>
-                    <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</small> Cum, minima rem ipsum, suscipit temporibus numquam animi eius modi tempore ex molestias distinctio, <cite>amet nesciunt odit doloremque sequi sapiente cumque quasi!</cite>
-                </p>
-                <!-- Se agrega una imagen -->
-                <img src="imagenes/libro.jpg" alt="">
-                <!-- Pie del artículo -->
-                <footer>
-                    <p>Comentarios(0)</p>
-                </footer>
-                <address>
-                    <!-- Se agrega una referencia -->
-                    <a href="https://google.com">Investiga más con Google</a>
-                </address>
-            </article>
-            <article>
-                <!-- Se ordenan los encabezados -->
-                <hgroup>
-                    <h1>Segundo art&iacute;culo</h1>
-                    <h2>Subt&iacute;tulo</h2>
-                </hgroup>
-                <time datetime="2022-05-31">Publicado el: 2022-05-31</time>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nisi voluptate nesciunt! Minus, labore inventore? Atque natus asperiores culpa autem ipsam tempora distinctio. Blanditiis voluptates culpa voluptate iste amet aspernatur!
-                </p>
-                <!-- Pie del artículo -->
-                <footer>
-                    <p>Comentarios(0)</p>
-                </footer>
-            </article>
-        </section>
-        <!-- aside: relacionado a la sección, pero no es tan relevante -->
-        <aside>
-            <!-- Se agregan citas -->
-            <blockquote site="https://www.youtube.com/watch?v=rbuYtrNUxg4">Mensaje 1</blockquote>
-            <blockquote site="https://www.youtube.com/watch?v=rbuYtrNUxg4">Mensaje 2</blockquote>
-        </aside>
-        <!-- Pie de página -->
-        <footer>
-            <p>Derechos reservados 2022</p>
-        </footer>
+        <!-- Pequeña división que no afecta a la página, pero que ayuda al diseño -->
+        <div class="agrupacionContenido">
+            <!-- Header de la página -->
+            <header class="cabecera">
+                <h1><dd>Mi blog</dd></h1>
+            </header>
+            <!-- Navegación dentro de la página -->
+            <nav class="menu">
+                <!-- Lista desordenada con varios ítems -->
+                <ul>
+                    <li>Principal</li>
+                    <li>Ayuda</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            <!-- Se usa la etiqueta section para almacenar el contenido principal -->
+            <section class="seccion">
+                <article>
+                    <!-- Se ordenan los encabezados -->
+                    <hgroup>
+                        <h1>Primer art&iacute;culo</h1>
+                        <h2>Subt&iacute;tulo</h2>
+                    </hgroup>
+                    <time datetime="2022-05-31">Publicado el: 2022-05-31</time>
+                    <p>
+                        <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</small> Cum, minima rem ipsum, suscipit temporibus numquam animi eius modi tempore ex molestias distinctio, <cite>amet nesciunt odit doloremque sequi sapiente cumque quasi!</cite>
+                    </p>
+                    <!-- Se agrega una imagen -->
+                    <img src="imagenes/libro.jpg" alt="">
+                    <!-- Pie del artículo -->
+                    <footer>
+                        <p>Comentarios(0)</p>
+                    </footer>
+                    <address>
+                        <!-- Se agrega una referencia -->
+                        <a href="https://google.com">Investiga más con Google</a>
+                    </address>
+                </article>
+                <article>
+                    <!-- Se ordenan los encabezados -->
+                    <hgroup>
+                        <h1>Segundo art&iacute;culo</h1>
+                        <h2>Subt&iacute;tulo</h2>
+                    </hgroup>
+                    <time datetime="2022-05-31">Publicado el: 2022-05-31</time>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nisi voluptate nesciunt! Minus, labore inventore? Atque natus asperiores culpa autem ipsam tempora distinctio. Blanditiis voluptates culpa voluptate iste amet aspernatur!
+                    </p>
+                    <!-- Pie del artículo -->
+                    <footer>
+                        <p>Comentarios(0)</p>
+                    </footer>
+                </article>
+            </section>
+            <!-- aside: relacionado a la sección, pero no es tan relevante -->
+            <aside class="relacionado">
+                <!-- Se agregan citas -->
+                <blockquote site="https://www.youtube.com/watch?v=rbuYtrNUxg4">Mensaje 1</blockquote>
+                <blockquote site="https://www.youtube.com/watch?v=rbuYtrNUxg4">Mensaje 2</blockquote>
+            </aside>
+            <!-- Pie de página -->
+            <footer class="pie">
+                <p>Derechos reservados 2022</p>
+            </footer>
+        </div>
     </body>
 </html>
